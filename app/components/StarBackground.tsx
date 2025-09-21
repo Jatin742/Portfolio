@@ -16,7 +16,7 @@ type Meteor = {
     size: number;
     x: number; // percentage (0–100)
     y: number; // percentage (0–100)
-    delay: number;
+    delay: string;
     animationDuration: number; // in seconds
 };
 
@@ -64,7 +64,7 @@ export const StarBackground = () => {
                 size: Math.random() * 2 + 1,
                 x: Math.random() * 100,
                 y: Math.random() * 20,
-                delay: Math.random() ,
+                delay: Math.random()/1000 +"s",
                 animationDuration: Math.random() * 3 + 3,
             });
         }

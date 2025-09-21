@@ -17,7 +17,7 @@ export const ThemeToggle = () => {
             document.documentElement.classList.remove("dark");
             setIsDarkMode(false);
         }
-    });
+    }, []);
     const toggleTheme = () => {
         if(isDarkMode){
             document.documentElement.classList.remove("dark");

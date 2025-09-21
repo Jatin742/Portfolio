@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { cn } from "../utils/utils";
 import { Menu, X } from "lucide-react";
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import Image from "next/image";
 
 const projects = [
     {
@@ -37,7 +38,7 @@ export const ProjectsSection = () => {
                     {projects.map((project, key) => (
                         <div key={key} className="bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                             <div className="h-48 overflow-hidden">
-                                <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                                <Image src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                             </div>
 
                             <div className="p-6">
