@@ -36,7 +36,7 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {projects.map((project, key) => (
-                        <div key={key} className="bg-card rounded-lg overflow-hidden shadow-xs card-hover">
+                        <div key={key} className="bg-card rounded-lg overflow-hidden shadow-xs card-hover cursor-pointer">
                             <div className="relative w-full aspect-[16/9] flex items-center justify-center bg-black/5">
                                 <Image src={project.image} fill alt={project.title} sizes="(max-width: 768px) 100vw, 50vw" className="object-contain transition-transform duration-500 group-hover:scale-110" />
                             </div>
