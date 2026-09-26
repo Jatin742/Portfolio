@@ -10,7 +10,7 @@ const projects = [
         description: "An Ecommerce Application made using Next.js",
         image: "/projects/My-Shop.png",
         tags: ["Next.js", "TailWind CSS"],
-        demoUrl: "https://my-shop-jatin742.vercel.app/",
+        demoUrl: "https://my-shop-six-hazel.vercel.app/",
         gitHubUrl: "https://github.com/Jatin742/My-Shop"
     },
     {
